@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-06T18:05:00.908474+00:00",
+  "repository_source": "https://github.com/orgs/meta/repositories",
+  "repository_enumeration_complete": true,
+  "public_repositories_enumerated": 185,
+  "route_enumeration_complete": false,
+  "projects": 55,
+  "routes": 5951,
+  "root_only_projects": [
+    "content-review-filters",
+    "flipper",
+    "lexical-ios",
+    "mcrouter",
+    "meta-ray-ban-display-ui-toolkit-web",
+    "open-graph-protocol",
+    "OpenBIC",
+    "PathPicker",
+    "Rapid",
+    "react-devtools",
+    "regenerator",
+    "screenshot-tests-for-android",
+    "stetho",
+    "ThreatExchange"
+  ],
+  "notes": [
+    "astryx: excluded non-HTML or unsafe sitemap route 'llms.txt'.",
+    "componentkit: excluded 6 sitemap paths independently GET-verified HTTP 404 at the destination.",
+    "docusaurus: custom-domain documentation URL independently GET-verified HTTP 200; recovered its sitemap routes rather than redirecting into the old root-only stub.",
+    "flipper: documentation was retired upstream; unknown paths redirect to the repository root, not fabricated GitHub paths.",
+    "immersive-web-sdk: HTTPS root independently GET-verified HTTP 200.",
+    "lexical: custom-domain documentation URL independently GET-verified HTTP 200; recovered its sitemap routes rather than redirecting into the old root-only stub.",
+    "mysql-5.6: HTTPS root independently GET-verified HTTP 200; upstream canonical still declares HTTP.",
+    "Known sitemap routes plus verified root links only; not an exhaustive crawl of all pages.",
+    "astryx: canonical custom domain paths work even where the meta.github.io stub does not.",
+    "componentkit: at least one stale sitemap route returns 404 at the destination; a redirect cannot restore missing destination content.",
+    "ThreatExchange: a sampled root-link destination is already missing upstream; only its working root is statically generated.",
+    "Nonpublic canonical hints and origins were not fetched or included."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "facebook-pages-redirects",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Browser regression tests for legacy GitHub Pages redirects",
+  "scripts": {
+    "test": "node tests/redirect.test.js",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
